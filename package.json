@@ -1,8 +1,11 @@
 {
     "name": "anydoor_fake-wheel",
-    "version": "1.0.0",
+    "version": "0.0.1",
     "description": "A simple static resource server build with Node.js",
     "main": "src/index.js",
+    "bin": {
+        "anydoor-fake": "bin/anydoor-fake"
+    },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
@@ -21,6 +24,7 @@
         "eslint-plugin-react": "^7.7.0"
     },
     "dependencies": {
-        "handlebars": "^4.0.11"
+        "handlebars": "^4.0.11",
+        "yargs": "^11.0.0"
     }
 }
