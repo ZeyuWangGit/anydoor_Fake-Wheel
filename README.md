@@ -1,7 +1,7 @@
 # anydoor_Fake-Wheel
 A simple static resource server build with Node.js
 
-
+##NOTE Inbuilding and not upload to NPM yet
 ## Installation
 ```
 npm i -g anydoor-fake
